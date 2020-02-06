@@ -1,0 +1,12 @@
+.Image {
+  max-width: 30%;
+  max-height: auto;
+}
+
+.Card {
+  border: 1px solid black;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
