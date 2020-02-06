@@ -1,4 +1,4 @@
-### Wolt Engineering Pre-assignment
+# Wolt Engineering Pre-assignment
 
 My solution for the (option 1) Front-End assignment for the Wolt Summer 2020 Internships - Engineering Pre-assignment.
 
