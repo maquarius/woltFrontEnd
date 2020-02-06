@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import jsonData from "./restaurantData.js";
-import "../css/card.css";
+import "../App.css";
 import { Blurhash } from "react-blurhash";
+import { Container, Row, Col } from "react-bootstrap";
+import Tag from "./tagMaker.js";
 
 const Restaurant = () => {
   const [restaurants, setRestaurants] = useState([]);
@@ -55,14 +57,24 @@ const Restaurant = () => {
     return (
       <div>
         <h1>All restaurants</h1>
-        <button onClick={sortAplha}>Sort A to Z</button>
-        <button onClick={reverseAlpha}>Sort Z to A</button>
-        <button onClick={unloadPage}>back to loading</button>
-        <div className="grid-container">
+        <div className="buttonContainer">
+          <button className="button" onClick={sortAplha}>
+            Sort A to Z
+          </button>
+          <button className="button" onClick={reverseAlpha}>
+            Sort Z to A
+          </button>
+          <button className="button" onClick={unloadPage}>
+            back to loading
+          </button>
+        </div>
+        <div className="restaurantContainer">
           {restaurants.map((item, key) => (
-            <div className="Card grid-item" key={key}>
-              <p>{item.name}</p>
+            <div className="restaurantDiv" key={key}>
+              <p className="title">{item.name}</p>
               <img className="Image" src={item.image} alt={item.name} />
+              <p>{item.description}</p>
+              <Tag tags={item.tags} />
             </div>
           ))}
         </div>
@@ -72,12 +84,20 @@ const Restaurant = () => {
     return (
       <div>
         <h1>All restaurants</h1>
-        <button onClick={sortAplha}>Sort A to Z</button>
-        <button onClick={reverseAlpha}>Sort Z to A</button>
-        <button onClick={loadPage}>finnish loading!</button>
-        <div className="grid-container">
+        <div className="buttonContainer">
+          <button className="button" onClick={sortAplha}>
+            Sort A to Z
+          </button>
+          <button className="button" onClick={reverseAlpha}>
+            Sort Z to A
+          </button>
+          <button className="button" onClick={loadPage}>
+            load page
+          </button>
+        </div>
+        <div className="restaurantContainer">
           {restaurants.map((item, key) => (
-            <div className="Card grid-item" key={key}>
+            <div className="restaurantDiv" key={key}>
               <Blurhash
                 hash={item.blurhash}
                 width={400}
