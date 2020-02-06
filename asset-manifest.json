@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/woltFrontEnd/static/css/main.7099718a.chunk.css",
+    "main.js": "/woltFrontEnd/static/js/main.29482a90.chunk.js",
+    "main.js.map": "/woltFrontEnd/static/js/main.29482a90.chunk.js.map",
+    "runtime-main.js": "/woltFrontEnd/static/js/runtime-main.e94b04c6.js",
+    "runtime-main.js.map": "/woltFrontEnd/static/js/runtime-main.e94b04c6.js.map",
+    "static/js/2.c7662007.chunk.js": "/woltFrontEnd/static/js/2.c7662007.chunk.js",
+    "static/js/2.c7662007.chunk.js.map": "/woltFrontEnd/static/js/2.c7662007.chunk.js.map",
+    "index.html": "/woltFrontEnd/index.html",
+    "precache-manifest.b18fbe34e6e10f1126577dd410dab4f8.js": "/woltFrontEnd/precache-manifest.b18fbe34e6e10f1126577dd410dab4f8.js",
+    "service-worker.js": "/woltFrontEnd/service-worker.js",
+    "static/css/main.7099718a.chunk.css.map": "/woltFrontEnd/static/css/main.7099718a.chunk.css.map",
+    "static/js/2.c7662007.chunk.js.LICENSE": "/woltFrontEnd/static/js/2.c7662007.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e94b04c6.js",
+    "static/js/2.c7662007.chunk.js",
+    "static/css/main.7099718a.chunk.css",
+    "static/js/main.29482a90.chunk.js"
+  ]
+}
