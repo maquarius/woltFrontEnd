@@ -2,12 +2,6 @@
 
 My solution for the (option 1) Front-End assignment for the Wolt Summer 2020 Internships - Engineering Pre-assignment.
 
-## Table of contents
-
-- [Preview](#preview)
-- [Technologies](#Technologies)
-- [Setup](#Setup)
-
 ## Preview
 
 This project can be seen on: https://maquarius.github.io/woltFrontEnd/
@@ -27,3 +21,6 @@ $ cd ../WOLT_FRONT_END
 $ npm install
 $ npm start
 ```
+
+## Future
+I don't intend to continue this project. Although it would be nice to learn about the pre-loaded display, for now it is not on my foucss. I will make a new project when i start doing that.
